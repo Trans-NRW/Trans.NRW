@@ -13,6 +13,5 @@ Wir wollen einen safer Space anbieten, indem sich trans\* Beings wohlfühlen, si
 Dabei wollen wir sowohl eine Onlinepräsenz als auch lokale Meetups anbieten.
 
 ## Wo kann man uns finden?
-Zum einen in unseren Onlineangeboten, wie unserem [Forum]({{% param "identiT.Forum.URL" %}}) oder unserem [TeamSpeak]({{% param "identiT.Teamspeak.URL" %}}).
-Zum anderen auf unseren lokalen [Meetups]({{% param "identiT.Forum.meetups" %}}) (aktuell erstmal nur in Bochum).
+Zum einen in unseren Onlineangeboten, wie unserem [Forum]({{% param "identiT.Forum.URL" %}}), zum anderen auf unseren lokalen [Meetups]({{% param "identiT.Forum.meetups" %}}) (aktuell erstmal nur in Bochum).
 Gerne einfach hereinschnuppern und mitmachen :3
