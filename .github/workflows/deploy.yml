@@ -40,8 +40,8 @@ jobs:
       with:
         switches: -avz --delete --rsync-path="rsync" --exclude='.git' --exclude='.github'
         path: "./public/"
-        remote_path: "/var/www/trans.nrw/html/"
+        remote_path: ${{ secrets.TARGET }}
         remote_host: ${{ secrets.SERVER_IP }}
         remote_user: ${{ secrets.SERVER_USER }}
         remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        remote_port: 2222
+        remote_port: ${{ secrets.SSH_PORT }}
