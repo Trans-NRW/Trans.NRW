@@ -46,7 +46,7 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: burnett01/rsync-deployments@v9
         with:
-          switches: -avz --delete --exclude=.git --exclude=.github
+          switches: -avz --delete --no-owner --no-group --exclude=.git --exclude=.github
           path: public/
           remote_path: ${{ secrets.TARGET }}
           remote_host: ${{ secrets.SERVER_IP }}
