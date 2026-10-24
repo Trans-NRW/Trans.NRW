@@ -4,6 +4,9 @@ enableEmoji = true
 disableKinds = ['taxonomy', 'section']
 theme = 'transnrw'
 
+[security.exec]
+allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+
 [build]
   [build.buildStats]
     enable = true
@@ -24,16 +27,18 @@ theme = 'transnrw'
 
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = true
+
 [languages]
     [languages.de-DE]
-        languageCode = 'de-DE'
+        locale = 'de-DE'
         contentDir = 'content/de-DE'
-        languageName = 'Deutsch'
+        label = 'Deutsch'
         weight = 1
+
     [languages.en-US]
-        languageCode = 'en-US'
+        locale = 'en-US'
         contentDir = 'content/en-US'
-        languageName = 'English'
+        label = 'English'
         weight = 2
 
 [params]

@@ -2,5 +2,9 @@
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.14",
     "tailwindcss": "^4.1.14"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.5.1": true,
+    "@tailwindcss/oxide@4.1.14": true
   }
 }
